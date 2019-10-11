@@ -1,0 +1,20 @@
+{
+    "key": "xor",
+    "name": "XOR dataset",
+    "config": {
+        "input_size": 2,
+        "hidden_sizes": [2],
+        "output_size": 1,
+        "epochs": 2000,
+        "lr": 0.01,
+        "mmt": 0.5,
+        "dlr": 0.1,
+        "dlr_rate": 0.1,
+        "val_split": 0
+    },
+    "mapping": {
+        "t": [1],
+        "f": [0]
+    },
+    "class_col": 2
+}

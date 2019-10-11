@@ -1,0 +1,21 @@
+{
+    "key": "iris",
+    "name": "Iris dataset",
+    "config": {
+        "input_size": 4,
+        "hidden_sizes": [6],
+        "output_size": 3,
+        "epochs": 200,
+        "lr": 0.01,
+        "mmt": 0.5,
+        "dlr": 0.1,
+        "dlr_rate": 0.1,
+        "val_split": 0.2
+    },
+    "mapping": {
+        "Iris-virginica": [1, 0, 0],
+        "Iris-versicolor": [0, 1, 0],
+        "Iris-setosa": [0, 0, 1]
+    },
+    "class_col": 4
+}
